@@ -1,0 +1,26 @@
+{
+    "name": "qstart",
+    "version": "0.0.1",
+    "description": "DOM ready promisified with Q",
+    "main": "src/qstart.js",
+    "keywords": [
+        "promise",
+        "browser",
+        "DOMContentLoaded",
+        "readystatechange"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/peutetre/qstart.git"
+    },
+    "author": "Paul Panserrieu <paul@42loops.com> (http://42loops.com)",
+    "license": "MIT",
+    "dependencies": {
+        "q": "0.9.x"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-watch": "~0.4.4"
+    }
+}
