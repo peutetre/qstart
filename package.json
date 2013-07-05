@@ -1,6 +1,6 @@
 {
     "name": "qstart",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "DOM ready promisified with Q",
     "main": "src/qstart.js",
     "keywords": [
@@ -14,6 +14,11 @@
         "url": "git://github.com/peutetre/qstart.git"
     },
     "author": "Paul Panserrieu <paul@42loops.com> (http://42loops.com)",
+    "contributors" : [{
+        "name" : "Gaétan Renaudeau",
+        "email" : "renaudeau.gaetan@gmail.com",
+        "url" : "http://http://greweb.me/"
+    }],
     "license": "MIT",
     "dependencies": {
         "q": "0.9.x"

@@ -1,0 +1,7 @@
+2013-07-05 Gaétan Renaudeau <renaudeau.gaetan@gmail.com>
+
+	* Make Qstart a Promise instead of a function returning a Promise
+
+2013-07-05 Paul Panserrieu <paul@42loops.com>
+
+	* init project
