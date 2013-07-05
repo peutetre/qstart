@@ -13,16 +13,16 @@
     return function () {
         var Q = window.Q || require('q'),
             d = Q.defer(),
-            successƒ = function () {
-                window.removeEventListener("error", errorƒ);
+            successf = function () {
+                window.removeEventListener("error", errorf);
                 d.resolve(window.document);
             },
-            errorƒ = function (err) { d.reject(err); };
+            errorf = function (err) { d.reject(err); };
 
         window.document.addEventListener("readystatechange", function () {
-            if (document.readyState == "complete") successƒ();
+            if (document.readyState == "complete") successf();
         }, false);
-        window.addEventListener("error", errorƒ, false);
+        window.addEventListener("error", errorf, false);
         return d.promise;
     };
 });
