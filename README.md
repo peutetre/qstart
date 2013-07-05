@@ -13,5 +13,5 @@
         // do stuff on error...
     }
 
-    Qstart().then(init, onError);
+    Qstart.then(init, onError);
 ~~~
