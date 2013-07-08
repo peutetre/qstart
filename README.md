@@ -1,11 +1,10 @@
-# DOM ready promisified with Q
-
+# DOM ready promisified with Q [![Build Status](https://secure.travis-ci.org/peutetre/qstart.png)](http://travis-ci.org/peutetre/qstart)
 ## Usage
 
 ~~~ javascript
     var Qstart = require('qstart');
 
-    function init (doc) {
+    function onSuccess (doc) {
         // do stuff on success...
     }
 
@@ -13,5 +12,11 @@
         // do stuff on error...
     }
 
-    Qstart.then(init, onError);
+    Qstart.then(onSuccess, onError);
+~~~
+
+## Test
+
+~~~ sh
+grunt test
 ~~~
