@@ -15,8 +15,17 @@
     Qstart.then(onSuccess, onError);
 ~~~
 
+## Install
+
+via npm
+
+~~~ sh
+npm install qstart
+~~~
+
 ## Test
 
 ~~~ sh
+npm install
 grunt test
 ~~~
