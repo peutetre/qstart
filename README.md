@@ -1,4 +1,7 @@
 # DOM ready promisified with Q [![Build Status](https://secure.travis-ci.org/peutetre/qstart.png)](http://travis-ci.org/peutetre/qstart)
+
+[![SauceLabs Status](https://saucelabs.com/browser-matrix/qstart_test.svg)](https://saucelabs.com/u/qstart_test)
+
 ## Usage
 
 ~~~ javascript
