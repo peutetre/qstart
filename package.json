@@ -1,6 +1,6 @@
 {
     "name": "qstart",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "DOM ready promisified with Q",
     "main": "src/qstart.js",
     "keywords": [

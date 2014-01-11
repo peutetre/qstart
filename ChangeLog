@@ -1,4 +1,8 @@
-2013-07-05 Gaétan Renaudeau <renaudeau.gaetan@gmail.com>
+2014-01-10 Paul Panserrieu <paul@42loops.com> (v0.0.5)
+
+	* refactoring: replace ƒ with f and add .npmignore file
+
+2013-07-05 Gaétan Renaudeau <renaudeau.gaetan@gmail.com> (v0.0.4)
 
 	* Make Qstart a Promise instead of a function returning a Promise
 
