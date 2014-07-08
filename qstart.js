@@ -18,9 +18,16 @@
         },
         errorf = function (err) { d.reject(err); };
 
-    window.document.addEventListener("readystatechange", function () {
-        if (document.readyState == "complete") successf();
-    }, false);
     window.addEventListener("error", errorf, false);
+
+    if(window.cordova) {
+        window.document.addEventListener("deviceready", successf, false);
+    }
+    else {
+        window.document.addEventListener("readystatechange", function () {
+            if (document.readyState == "complete") successf();
+        }, false);
+    }
+
     return d.promise;
 });
