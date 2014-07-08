@@ -1,4 +1,4 @@
-# DOM ready promisified with Q
+# DOM ready / Cordova's `deviceready` promisified with Q
 
 [![Build Status](https://secure.travis-ci.org/peutetre/qstart.png)](http://travis-ci.org/peutetre/qstart)
 
